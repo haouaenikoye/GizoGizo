@@ -1,0 +1,20 @@
+#cenrte
+{
+   background-image: url(serveur.pngs);
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+#cenrte:before
+{
+ content: "";
+ position: absolute;
+ left: 0; right: 0;
+ top: 0; bottom: 0;
+ background: rgba(218, 168, 233, 0.7);
+}
+.bla
+{
+    position: relative;
+}
